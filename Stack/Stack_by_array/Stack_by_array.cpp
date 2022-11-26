@@ -22,9 +22,9 @@ class Stack_arr{
         arr=new int[size];
     }
     
-    void push(int data);
-    void pop();
-    void peek();
+    void push(int data);  // O(1)
+    void pop();           // O(1)
+    void peek();          // O(1)
     bool IsEmpty();
 };
 
