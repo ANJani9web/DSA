@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// IR - INSERTION at REAR
+// DF - DELETION at FRONT
 // FIFO rule - First In First Out
 
 class Queue_arr{
