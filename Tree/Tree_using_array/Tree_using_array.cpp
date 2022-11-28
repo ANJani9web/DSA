@@ -1,4 +1,5 @@
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 // Level of a tree = height of a tree
@@ -19,4 +20,19 @@ using namespace std;
 
 int main(){
    cout<<"Hello"<<endl;
+
+   cout<<"Please enter the height of the tree :\n";
+   int height;
+   cin>>height;
+
+   int size=pow(2,(height+1))-1;
+   
+   int *arr=new int[size];
+   
+   int i=0,j=0;
+
+   for(j=0;j<size;j++){
+       
+       
+   }
 }
